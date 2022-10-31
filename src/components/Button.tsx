@@ -1,7 +1,8 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
+import './Button.css';
 
-const Button = ({ text, onClick }: { text: string, onClick: React.MouseEventHandler }): ReactNode => {
-  return <button onClick={onClick}>{text}</button>;
+const Button = ({ children, onClick }: { children: string, onClick?: React.MouseEventHandler }): JSX.Element => {
+  return <button className='stylized-button' onClick={onClick}>{children}</button>;
 };
 
 export default Button;

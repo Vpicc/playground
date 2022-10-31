@@ -21,6 +21,7 @@
         "semi": "off",
         "@typescript-eslint/semi": "off",
         "@typescript-eslint/no-non-null-assertion": "off",
-        "n/no-path-concat": "off"
+        "n/no-path-concat": "off",
+        "@typescript-eslint/strict-boolean-expressions": "off"
     }
 }
